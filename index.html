@@ -7,6 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyC2wdDVt3ef6WNBnmNlGyAxEhM508UDUfk",
+          authDomain: "instagramclone-a33f7.firebaseapp.com",
+          projectId: "instagramclone-a33f7",
+          storageBucket: "instagramclone-a33f7.appspot.com",
+          messagingSenderId: "779258824907",
+          appId: "1:779258824907:web:8962b0782014034e5ab34e"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+
+        console.log(app);
+      </script>
+  <script src="app.js"></script>  
 </body>
 </html>
